@@ -1,0 +1,8 @@
+{
+  "ignoreTestFiles": "*.js",
+  "testFiles": "**/*.{feature,features}",
+  "baseUrl": "http://jarvisweb03adl.claro.amx",
+  "defaultCommandTimeout": 20000,
+  "projectId": "umx3zd",
+  "pageLoadTimeout": 100000
+}

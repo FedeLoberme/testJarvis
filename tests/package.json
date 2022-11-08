@@ -1,0 +1,31 @@
+{
+  "name": "cypress-cucumber-Jarvis",
+  "version": "1.0.0",
+  "description": "Example of cypress with cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --spec \"**/*.feature\"",
+    "test:all": "cypress run --spec \"**/*.features\"",
+    "cypress:open": "cypress.cmd open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheBrainFamily/cypress-cucumber-example.git"
+  },
+  "keywords": [
+    "cypress",
+    "cucumber",
+    "testing"
+  ],
+  "author": "Eduardo De Feudis",
+  "license": "MIT",
+  "dependencies": {
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "devDependencies": {
+    "cypress": "^9.2.1"
+  }
+}
